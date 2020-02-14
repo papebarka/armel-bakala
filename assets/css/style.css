@@ -1,0 +1,173 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.page
+{
+    width: 100%;
+    height: 100%;
+}
+
+a
+{
+    color: black;
+}
+
+/* Navigation */
+.brand-navigation
+{
+    padding-top: 1.2em;
+}
+
+.brand-navigation .row
+{
+    display: flex;
+}
+
+.brand
+{
+
+}
+
+.navigation-container
+{
+    /*border: 1px solid;*/
+}
+
+.navigation
+{
+    list-style-type: none;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.navigation-item
+{
+    margin-right: 2em;
+}
+
+.navigation-item:last-of-type
+{
+    margin-right: 0;
+}
+
+.navigation-link
+{
+    text-decoration: none;
+}
+
+/* Banner */
+.banner
+{
+    /*border: 1px solid;*/
+    position: relative;
+    background-image: url('../img/adult-work-lg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 40em;
+}
+
+.banner-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.banner-text-container
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-presentation-slogan
+{
+    font-size: 1.5em;
+    /*border: 1px solid white;*/
+    padding: 0.5em;
+    border-radius: 30px;
+    /*background-color: black;*/
+    /*opacity: 0.5;*/
+    /*box-shadow: 0.5px 0.5px 8px 1px #fcfcfc;*/
+    color: #c3c3c3;
+}
+
+
+/* Footer */
+.footer
+{
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.social-networks
+{}
+
+.social-networks-icon-container
+{}
+
+.social-networks-icon
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.icon
+{
+    margin-right: 1em;
+}
+
+.icon:last-of-type
+{
+    margin-right: 0;
+}
+
+.facebook:hover
+{
+    color-fill: blue;
+}
+
+.twitter:hover
+{
+    color: blue;
+}
+
+.linkedin:hover
+{
+    color: blue;
+}
+
+.youtube:hover
+{
+    color: red;
+}
+
+.copyright
+{
+    font-size: 1.2em;
+}
+
+
+
+/*Page = Services*/
+.service-container
+{
+    height: 15em;
+    border: 1px solid;
+}
